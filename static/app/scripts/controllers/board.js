@@ -43,7 +43,6 @@ angular.module('retrospectApp')
                 }, function (error) {
                     console.error('Error updating retrospective name', error);
                 });
-                console.log('Updating.......');
             };
 
             $scope.updateTickets();
